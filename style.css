@@ -276,6 +276,9 @@ h1 span {
   margin-left: 50px;
 }
 
+.start{
+  font-size: 46px;
+}
 .box {
   display: flex;
   flex-direction: column;
