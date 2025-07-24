@@ -1,0 +1,317 @@
+/* Small Devices: 320px - 569px */
+@media screen and (min-width: 320px) and (max-width: 569px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 20px;
+    gap: 10px;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding: 30px 20px;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-text h2 {
+    font-size: 22px;
+  }
+
+  .buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .hero-image {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-image img {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .features {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .image img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+  }
+
+  .start-btn {
+    width: 100%;
+  }
+
+  .glimpse-box {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .glimpse-text h3 {
+    font-size: 1rem;
+  }
+
+  .glimpse-text p {
+    font-size: 0.875rem;
+  }
+
+  .section h2 {
+    font-size: 1.25rem;
+  }
+
+  .testimonial-content {
+    padding: 16px;
+  }
+
+  .btn-carousel {
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .footer-column {
+    border: none !important;
+    padding-right: 0 !important;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  details summary {
+    font-size: 0.85rem;
+  }
+
+  
+
+}
+
+/* Medium Devices: 570px - 767px */
+@media screen and (min-width: 570px) and (max-width: 767px) {
+  .navbar {
+    padding: 20px 30px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding: 40px 30px;
+    text-align: center;
+    gap: 25px;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-text h2 {
+    font-size: 26px;
+  }
+
+  .buttons {
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+  }
+
+  .hero-image {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-image img {
+    max-width: 280px;
+    width: 100%;
+    height: auto;
+  }
+   .container {
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .features {
+    justify-content: center;
+  }
+
+  .image img {
+    width: 100%;
+    max-width: 360px;
+    margin-top: 20px;
+  }
+
+    .glimpse-box {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .glimpse-text h3 {
+    font-size: 1.125rem;
+  }
+
+  .glimpse-text p {
+    font-size: 0.95rem;
+  }
+
+  .section h2 {
+    font-size: 1.35rem;
+  }
+
+  .testimonial-content {
+    padding: 20px;
+  }
+
+  .btn-carousel {
+    width: 38px;
+    height: 38px;
+  }
+
+   .footer-container {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .footer-column {
+    flex: 1 1 45%;
+    border: none;
+    padding-right: 0;
+  }
+
+  
+}
+
+/* Tablets: 768px - 1024px */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .navbar {
+    padding: 20px 40px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .hero {
+    flex-direction: row;
+    padding: 50px 40px;
+    align-items: center;
+    gap: 30px;
+    text-align: left;
+  }
+
+  .hero-text {
+    max-width: 60%;
+  }
+
+  .hero-text h2 {
+    font-size: 32px;
+  }
+
+  .buttons {
+    justify-content: flex-start;
+    gap: 15px;
+  }
+
+  .hero-image {
+    max-width: 35%;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+   .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px;
+  }
+
+  .features {
+    gap: 20px;
+  }
+
+  .image img {
+    width: 220px;
+  }
+
+   .glimpse-box {
+    flex-direction: row;
+    gap: 20px;
+    padding: 40px;
+  }
+
+  .glimpse-text h3 {
+    font-size: 1.25rem;
+  }
+
+  .glimpse-text p {
+    font-size: 1rem;
+  }
+
+  .section h2 {
+    font-size: 1.5rem;
+  }
+
+  .testimonial-content {
+    padding: 28px;
+  }
+
+  .btn-carousel {
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer-container {
+    gap: 2rem;
+  }
+
+  .footer-column {
+    flex: 1 1 220px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .accordion-content {
+    font-size: 0.9rem;
+  }
+
+
+}
+
