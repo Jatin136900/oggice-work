@@ -1,0 +1,228 @@
+/* Small screens (mobiles): 320px - 570px */
+@media screen and (min-width: 320px) and (max-width: 570px) {
+    .navbar {
+        flex-direction: column;
+        padding: 15px 20px;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    .buttons {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .hero-text {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-text h2,
+    .Kalyanamkart {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .top-banner {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .logo img {
+        width: 120px;
+        height: auto;
+    }
+
+    .wedding {
+        flex-direction: column;
+        padding: 25px 15px;
+        text-align: center;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin-bottom: 18px;
+    }
+
+    .features {
+        gap: 15px;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .box {
+        max-width: 90px;
+    }
+
+    .box img {
+        width: 35px;
+        height: 35px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .start-btn {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+    .image img {
+        width: 150px;
+        margin-top: 20px;
+    }
+}
+
+
+/* Medium screens (tablets): 570px - 768px */
+@media screen and (min-width: 570px) and (max-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        padding: 20px 30px;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 40px;
+        text-align: center;
+    }
+
+    .hero-text {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-text h2,
+    .Kalyanamkart {
+        font-size: 34px;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .top-banner {
+        font-size: 13px;
+    }
+
+    .logo img {
+        width: 150px;
+        height: auto;
+    }
+
+
+  .wedding {
+    flex-direction: column;
+    padding: 30px 25px;
+    text-align: center;
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .features {
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .box img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .start-btn {
+    font-size: 13px;
+    padding: 7px 14px;
+  }
+
+  .image img {
+    width: 200px;
+    margin-top: 25px;
+  }
+}
+
+
+
+/* Large tablets / small laptops: 768px - 1024px */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .navbar {
+        padding: 20px 40px;
+    }
+
+    .hero {
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 40px;
+        gap: 40px;
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
+
+    .hero-text h2,
+    .Kalyanamkart {
+        font-size: 44px;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .top-banner {
+        font-size: 14px;
+    }
+
+    .logo img {
+        width: 160px;
+        height: auto;
+    }
+
+  .wedding {
+    flex-direction: row;
+    padding: 35px 40px;
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  .features {
+    gap: 30px;
+    margin-bottom: 25px;
+  }
+
+  .box img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .image img {
+    width: 230px;
+  }
+}
